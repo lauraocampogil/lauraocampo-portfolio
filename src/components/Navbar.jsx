@@ -38,7 +38,7 @@ function Navbar() {
 				</div>
 
 				<div className="navbar-center">
-					<a href="/">
+					<a href="./">
 						<img src={Logo} alt="logo" className="logo" />
 					</a>
 				</div>

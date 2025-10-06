@@ -1,8 +1,8 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import AnimatedContent from "./AnimatedContent";
 import ImageTrail from "/src/components/ImageTrail.jsx";
 import Head from "../assets/images/Illustrations/Hoofd-mannequin.png";
-import Me from "../assets/images/Me/hoverme.jpg";
+import Me from "/public/images/Me/hoverme.jpg";
 function AboutMe() {
 	const [trailKey, setTrailKey] = useState(0);
 	const [isHovering, setIsHovering] = useState(false);

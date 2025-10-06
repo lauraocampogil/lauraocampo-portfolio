@@ -1,16 +1,9 @@
-# React + Vite
+This portfolio serves as a professional showcase for internship opportunities, highlighting both my technical abilities and interpersonal skills. Through this collection of work, I aim to present my self while demonstrating my career aspirations. A portfolio for building genuine connections within my industry.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# sources
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. ReactBits - Animated Content[https://reactbits.dev/animations/animated-content] used for the whole animation scroll of the website
+2. ReactBits - Image Trail [https://reactbits.dev/animations/image-trail] used in AboutMe section to hover over the head illustration
+3. FormSpree - ContactForm [https://formspree.io/] used for the contactform in contact section
+4. Index.js - data (minute 49) [https://www.youtube.com/watch?v=AW1yfBKRMKc&t=3254s] inspired to create the data for the website
+5. Deploy website with vite [https://www.youtube.com/watch?v=hn1IkJk24ow] used to deploy the website trough github pages

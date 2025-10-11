@@ -1096,10 +1096,14 @@ nav {
 	margin-bottom: 50px;
 }
 
-.objective-image img {
+.objective-image .legs {
 	width: 120px;
 	height: 450px;
 	margin-left: 4rem;
+}
+.ball {
+	width: 100px;
+	height: 100px;
 }
 
 .objective-right {

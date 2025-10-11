@@ -1,6 +1,7 @@
 import { traits } from "../../constants/index.js";
 import AnimatedContent from "./AnimatedContent";
 import Legs from "../assets/images/Illustrations/Benen-mannequin.png";
+import Ball from "../assets/images/Illustrations/ball.png";
 
 function Objective() {
 	return (
@@ -11,6 +12,7 @@ function Objective() {
 						<h2 className="objective-title">My Objective</h2>
 						<div className="objective-image">
 							<img src={Legs} alt="legs" className="legs" />
+							<img src={Ball} alt="ball" className="ball" />
 						</div>
 					</div>
 				</AnimatedContent>

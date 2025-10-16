@@ -93,8 +93,13 @@ nav {
 .navbar-left,
 .navbar-center,
 .navbar-center a,
+.navbar-center img,
 .navbar-right,
-.menu-button {
+.menu-button,
+.desktop-menu,
+.desktop-menu ul,
+.desktop-menu li,
+.desktop-menu a {
 	pointer-events: auto;
 }
 

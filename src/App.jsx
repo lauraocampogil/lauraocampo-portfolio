@@ -26,15 +26,20 @@ function App() {
 
 	useEffect(() => {
 		// Hacer las nubes arrastrables
-		cloudsRef.current.forEach((cloud) => {
-			if (cloud) {
-				Draggable.create(cloud, {
-					type: "x,y",
-					bounds: heroSectionRef.current,
-					inertia: true,
-				});
-			}
-		});
+		const isMobileOrTablet = window.innerWidth <= 1024;
+
+		// Only make clouds draggable on desktop (> 1024px)
+		if (!isMobileOrTablet) {
+			cloudsRef.current.forEach((cloud) => {
+				if (cloud) {
+					Draggable.create(cloud, {
+						type: "x,y",
+						bounds: heroSectionRef.current,
+						inertia: true,
+					});
+				}
+			});
+		}
 
 		// Animación de scroll dentro del hero
 		ScrollTrigger.create({
@@ -45,11 +50,14 @@ function App() {
 			onUpdate: (self) => {
 				const progress = self.progress;
 
+				// Limit cloud movement on mobile/tablet
+				const maxMove = isMobileOrTablet ? 400 : 1000;
+
 				// Nubes de la izquierda (índices 0, 1, 4) vuelan a la izquierda
 				[0, 1, 4].forEach((index) => {
 					if (cloudsRef.current[index]) {
 						gsap.to(cloudsRef.current[index], {
-							x: `-=${1000 * progress}`,
+							x: `-=${maxMove * progress}`,
 							duration: 0,
 						});
 					}
@@ -59,7 +67,7 @@ function App() {
 				[2, 3, 5].forEach((index) => {
 					if (cloudsRef.current[index]) {
 						gsap.to(cloudsRef.current[index], {
-							x: `+=${1000 * progress}`,
+							x: `+=${maxMove * progress}`,
 							duration: 0,
 						});
 					}

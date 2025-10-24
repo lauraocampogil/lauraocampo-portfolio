@@ -11,6 +11,23 @@ export const projects = [
 	{
 		year: "2025",
 		type: "Website",
+		title: "Shiynelly Lashes",
+		description: "Eyelash extension service offering classic lash-by-lash, wispy volumes, Russian volumes, removals, and cluster applications with weekend-only booking system.",
+		fullDescription:
+			"Shiynelly Lashes is a eyelash extension service based in Fresnes. The website features an intelligent booking system with real-time availability management, ensuring no double bookings. The platform integrates Firebase for reservation management and EmailJS for automated client confirmations.",
+		image: "https://res.cloudinary.com/dysrs96y1/image/upload/v1761296026/Shiynelly-1_vtwvnb.png",
+		websiteUrl: "https://shiynellylashes.com/",
+		tags: ["React", "Firebase", "EmailJS", "Vite", "SEO"],
+		screenshots: [
+			"https://res.cloudinary.com/dysrs96y1/image/upload/v1761296026/Shiynelly-1_vtwvnb.png",
+			"https://res.cloudinary.com/dysrs96y1/image/upload/v1761295362/Shiynelly-2_jekpge.png",
+			"https://res.cloudinary.com/dysrs96y1/image/upload/v1761295362/Shiynelly-3_a8h8hd.png",
+			"https://res.cloudinary.com/dysrs96y1/image/upload/v1761296024/Shiynelly-4_rmnk2o.png",
+		],
+	},
+	{
+		year: "2025",
+		type: "Website",
 		title: "InessCoach",
 		description: "Sports psychology coaching for young footballers, developing confidence and mental performance through professional, psychology-based training programs.",
 		fullDescription:
